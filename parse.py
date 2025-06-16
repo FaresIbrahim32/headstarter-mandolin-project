@@ -11,10 +11,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize LLAMA Cloud
-os.environ["LLAMA_CLOUD_API_KEY"] = "llx-kHzxJrXuls5iRnILeH3SmbsPaQPIBwOZN0BQtxGXMN6X2Whe"
+os.environ["LLAMA_CLOUD_API_KEY"] = "ENCRYPTED
 
 # Initialize Embeddings
-api_key = "qxOdVQSmAjjI8AdiVJy9wGdH3MiOEJ0t"
+api_key = "ENCRYPTED"
 model_name = "mistral-embed"
 embed_model = MistralAIEmbedding(model_name=model_name, api_key=api_key)
 # Initialize LLM - CORRECTED
